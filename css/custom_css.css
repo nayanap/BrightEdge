@@ -1,0 +1,221 @@
+img {
+     width:100%;
+     height:auto;
+}
+
+.navbar-inverse {
+  background-color: #019DDA;
+  border-bottom: 1px solid #66C4EA;
+  min-height: 60px;
+  z-index: 0;
+      bottom: 50%;
+
+  /*border-color: #080808;*/
+}
+
+.navbar-inverse 
+.navbar-brand {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: verdana;
+    font-weight: bold;
+    z-index: 2;
+    position: relative;
+}
+
+
+.navbar-brand {
+  float: left;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+  height: 50px;
+}
+.navbar-brand:hover,
+.navbar-brand:focus {
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+  }
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-left: 2px solid #e5e5e5;
+  border-right: 2px solid #e5e5e5;
+  box-shadow: -5px 0 5px -5px #CCCCCC, 5px 0 5px -5px #CCCCCC;
+  font-size: 14px;
+  font-family: Verdana;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+}
+
+.custom-place {
+  position: absolute;
+  top: 25px;
+  height: 50%;
+}
+
+.offset-from-top {
+  margin-top: 200px;
+  font-size: 13px;
+}
+
+
+.demo-container {
+  background-image: url("../images/demo.jpg");
+  background-repeat: no-repeat;
+  border-bottom: 2px solid #e5e5e5;
+  height: 200px;
+  margin: 0 auto;
+  margin-left: 100px;
+  margin-right: 80px;
+  margin-bottom: 20px; 
+  width: 300px;
+  filter: alpha(opacity=40);
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+}
+
+
+
+.responsive-scale{
+  width:100%;
+  padding-bottom: 66.666666666667%; /* 960px/1440px */
+  background-image:url(img/fluid/image-1440x960.jpg);
+  background-size:cover;
+  background-position:center; /* IE fix */
+  position: absolute;
+}
+
+.col-lg-12 {
+  position: relative;
+}
+
+.col-lg-7 {
+  border-right: 2px solid #e5e5e5;
+}
+
+.col-lg-5 {
+  position: relative;
+  overflow: hidden;
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.btn-container {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  z-index:10;
+}
+
+.btn {
+  color: #FFFFFF;
+  background-color: #ff6633 ;
+  border-color: #cccccc;
+}
+
+.btn-custom {
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffcc33", endColorstr="#ff6633");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#ffcc33), to(#ff6633));
+  background-image: -moz-linear-gradient(top, #ffcc33, #ff6633);
+  background-image: -ms-linear-gradient(top, #ffcc33, #ff6633);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffcc33), color-stop(100%, #ff6633));
+  background-image: -webkit-linear-gradient(top, #ffcc33, #ff6633);
+  background-image: -o-linear-gradient(top, #ffcc33, #ff6633);
+  background-image: linear-gradient(#ffcc33, #ff6633);
+  border-color: #006399 #006399 hsl(201, 100%, 25%);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+  -webkit-font-smoothing: antialiased;
+  border-color: #cccccc;
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.demo-text {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  z-index:10;
+  width: 300px;
+  height:100px;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.search-container {
+    background-image: url("../images/manifest.png");
+    background-repeat: no-repeat;
+    border-bottom: 2px solid #e5e5e5;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    width: 100px;
+}
+
+.search-text1 {
+  top: 25%;
+  left: 25%;
+  z-index:10;
+  width: 300px;
+  height:100px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.search-text2 {
+  top: 50%;
+  left: 25%;
+  z-index:10;
+  width: 300px;
+  height:100px;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.img {
+  height: 100%;
+}
+
+.lead{
+  font-size: 14px;
+  width: 100%;
+}
+
+.lead1 {
+  font-size: 12px;
+  width: 100%;
+}
+
+.modal-body {
+  height: 500px;
+}
+
